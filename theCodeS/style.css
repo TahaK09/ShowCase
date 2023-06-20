@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Transform helps in The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model */
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+}
+.log-cont {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.log-text {
+  font-weight: bold;
+}
+.form-page {
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+}
+.fp-1,
+.fp-2,
+.Forgot-Password-container, .submit-container {
+  margin: 20px;
+  width: 80%;
+}
+.fp-1 ::placeholder,
+.fp-2 ::placeholder {
+  font-size: 15px;
+}
+.fp-1 input,
+.fp-2 input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid#adadad;
+  border-radius: 2px;
+  background: #efefef;
+  outline: none;
+  width: 100%;
+}
+.Forgot-password-text {
+  font-size: 16px;
+  color: #adadad;
+}
+
+.Forgot-Password-container:hover {
+  text-decoration: underline;
+}
+
+.fp-1 input:focus,
+.fp-2 input:focus {
+  border-bottom: 2px solid#26a0be;
+}
+.character {
+  text-align: center;
+  margin-top: 20px;
+}
+.submit-container-text {
+  padding: 10px;
+
+  width: 100%;
+}
+.submit-container-text input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  color: #efefef;
+  border: none;
+  border-radius: 25px;
+  background: #2691d9;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-container-text input[type="submit"]:hover{
+
+background: #8b8a8a;
+}
+
+.signup-text{
+  color: #666666;
+  font-size: 16px;
+
+}
+
+.signup-text a{
+  color: #2691d9;
+  text-decoration: none;
+}
